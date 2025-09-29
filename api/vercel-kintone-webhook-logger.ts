@@ -3,7 +3,7 @@
 // Minimal Vercel Serverless Function to receive Kintone webhooks
 // Logs headers & payload; optional signature check (best‐effort)
 // ────────────────────────────────────────────────────────────
-import type { VercelRequest, VercelResponse } from "vercel";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { createHmac } from "crypto";
 
 
